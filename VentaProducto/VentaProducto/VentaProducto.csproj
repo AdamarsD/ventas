@@ -44,14 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="entidades\Clsusuario.cs" />
+    <Compile Include="negocio\NClsUsuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="negocio\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
